@@ -33,3 +33,6 @@ To make sure both people in your pair are contributing equally, please do ping-p
 3. Person B writes a failing test
 4. Person A makes it pass 
 
+
+###
+* For testing different dates, you can use the `@freeze_time` decorator from the `freezegun` library (installed by default as a dev dependency)
